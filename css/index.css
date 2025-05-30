@@ -51,6 +51,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* 포트폴리오 */
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
   
   /* ======================loading */
 
@@ -76,7 +84,7 @@
     font-size: 20px;
     line-height: 3;
     text-align: center;
-    font-family: 'HakgyoansimAllimjangTTF-B';
+    font-family: 'HakgyoansimAllimjangTTF-B','Apple SD Gothic Neo',Sans-serif; 
   }
   
   .circle:first-of-type {
@@ -152,7 +160,7 @@
     text-align: center;
     font-size: 100px;
     word-spacing: 30px;
-    font-family: 'HakgyoansimAllimjangTTF-B';
+    font-family: 'HakgyoansimAllimjangTTF-B','Apple SD Gothic Neo',Sans-serif; 
     letter-spacing: 10px;
     
    }
@@ -185,8 +193,10 @@
 
   .bar_t li {
     width: 30%;
+    font-family: 'SUIT-Regular','Apple SD Gothic Neo',Sans-serif; 
     /* background-color: salmon; */
   }
+
 
   .bar1:hover {
     cursor: pointer;
@@ -264,7 +274,7 @@
     color: black;
     font-size: 30px;
     line-height: 12;
-    font-family: 'Freesentation-9Black';
+    font-family: 'Freesentation-9Black','Apple SD Gothic Neo',Sans-serif; 
   }
 
   .c1 {
@@ -319,7 +329,7 @@
     top: -2%;
     left:-4%;
     font-size: 22px;
-    font-family: 'ChosunBg';
+    font-family: 'ChosunBg','Apple SD Gothic Neo',Sans-serif; 
     display: none;
     color: #222;
   }
@@ -344,9 +354,6 @@
     display: flex;
     flex-flow: row wrap;
     width: 80%;
-    /* display: flex;
-    width: 55%;
-    margin-top: 60px; */
   }
 
   .cardt3 ul li {
@@ -384,6 +391,7 @@
     background-color: black;
     height: 80vh;
     display: flex;
+    font-family: 'S-CoreDream-3Light','Apple SD Gothic Neo',Sans-serif; 
     
   }
   
@@ -429,13 +437,13 @@
     margin-left: 3%;
     font-size: 28px;
     padding: 1%;
-    font-family: 'SUIT-Regular';
+    font-family: 'SUIT-Regular','Apple SD Gothic Neo',Sans-serif; 
   }
   
   .content li,
   .content2 li {
     font-size: 20px;
-    font-family: 'SUIT-Regular';
+    font-family: 'SUIT-Regular','Apple SD Gothic Neo',Sans-serif; 
   }
   
   .t1 {
@@ -500,7 +508,7 @@
   .box h1{
     margin-right: 20%;
     font-size: 90px;
-    font-family: 'Freesentation-9Black';
+    font-family: 'Freesentation-9Black','Apple SD Gothic Neo',Sans-serif; 
   }
   
   .box h2{
@@ -522,6 +530,8 @@
     background-color: black;
     height: 80vh;
     position: relative;
+    font-family: 'S-CoreDream-3Light','Apple SD Gothic Neo',Sans-serif; 
+
     
   }
 
@@ -546,8 +556,8 @@
   
   .box2 h1{
     font-size: 90px;
-    font-family: 'S-CoreDream-3Light';
-    font-family: 'Freesentation-9Black';
+    font-family: 'S-CoreDream-3Light','Apple SD Gothic Neo',Sans-serif; 
+    font-family: 'Freesentation-9Black','Apple SD Gothic Neo',Sans-serif; 
   }
   
   .box2 h2{
@@ -572,24 +582,6 @@
     transition: 0.3s;
     font-size: 16px;
   }
-/* 
-  .tmbsite {
-    color: #333;
-    text-decoration: underline;
-    font-size: 14px;
-    margin-top: -3.8%;
-    margin-left: 33%;
-    border-radius: 5px;
-    width: 120px;
-    text-align: center;
-  }
-
-  .tmbsite:hover {
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    transition: 0.3s;
-  } */
 
 
   /* ===================footer */
@@ -601,7 +593,6 @@
 
   .footer {
     position: absolute;
-    /* bottom: 1%; */
     left: 48%;
     margin-top: 10%;
   }
@@ -613,7 +604,7 @@
   .footer h2 {
     font-weight: 300;
     font-size: 18px;
-    font-family: 'SUIT-Regular';
+    font-family: 'SUIT-Regular','Apple SD Gothic Neo',Sans-serif; 
   }
 
 
